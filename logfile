@@ -1,0 +1,43 @@
+2025-02-08 21:03:47.087 +04 [6165] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-apple-darwin22.6.0, compiled by Apple clang version 15.0.0 (clang-1500.1.0.2.5), 64-bit
+2025-02-08 21:03:47.089 +04 [6165] LOG:  listening on IPv6 address "::1", port 5432
+2025-02-08 21:03:47.089 +04 [6165] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-02-08 21:03:47.090 +04 [6165] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-02-08 21:03:47.104 +04 [6166] LOG:  database system was shut down at 2025-02-08 21:02:29 +04
+2025-02-08 21:03:47.125 +04 [6165] LOG:  database system is ready to accept connections
+2025-02-08 21:09:58.775 +04 [9203] LOG:  could not open directory "/usr/local/share/postgresql@14/timezone": No such file or directory
+2025-02-08 21:09:58.775 +04 [9203] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:09:58.776 +04 [9203] ERROR:  invalid value for parameter "TimeZone": "UTC"
+2025-02-08 21:09:58.776 +04 [9203] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:33:40.073 +04 [9728] FATAL:  database "payment_boilerplate_development" does not exist
+2025-02-08 21:33:40.085 +04 [9729] LOG:  could not open directory "/usr/local/share/postgresql@14/timezone": No such file or directory
+2025-02-08 21:33:40.085 +04 [9729] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:33:40.085 +04 [9729] ERROR:  invalid value for parameter "TimeZone": "UTC"
+2025-02-08 21:33:40.085 +04 [9729] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:34:37.448 +04 [9743] ERROR:  database "payment_boilerplate_development" does not exist
+2025-02-08 21:34:37.448 +04 [9743] STATEMENT:  ALTER DATABASE payment_boilerplate_development SET TIMEZONE = 'Asia/Dubai';
+2025-02-08 21:34:37.449 +04 [9743] ERROR:  database "payment_boilerplate_test" does not exist
+2025-02-08 21:34:37.449 +04 [9743] STATEMENT:  ALTER DATABASE payment_boilerplate_test SET TIMEZONE = 'Asia/Dubai';
+2025-02-08 21:35:03.029 +04 [9743] ERROR:  database "payment_boilerplate_development" does not exist
+2025-02-08 21:35:03.029 +04 [9743] STATEMENT:  ALTER DATABASE payment_boilerplate_development SET TIMEZONE = 'Asia/Dubai';
+2025-02-08 21:35:27.837 +04 [9743] ERROR:  database "payment_boilerplate_test" does not exist
+2025-02-08 21:35:27.837 +04 [9743] STATEMENT:  ALTER DATABASE payment_boilerplate_test SET TIMEZONE = 'Asia/Dubai';
+2025-02-08 21:39:07.650 +04 [9845] LOG:  could not open directory "/usr/local/share/postgresql@14/timezone": No such file or directory
+2025-02-08 21:39:07.650 +04 [9845] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:39:07.651 +04 [9845] ERROR:  invalid value for parameter "TimeZone": "UTC"
+2025-02-08 21:39:07.651 +04 [9845] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:39:32.549 +04 [9870] LOG:  could not open directory "/usr/local/share/postgresql@14/timezone": No such file or directory
+2025-02-08 21:39:32.549 +04 [9870] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:39:32.550 +04 [9870] ERROR:  invalid value for parameter "TimeZone": "UTC"
+2025-02-08 21:39:32.550 +04 [9870] STATEMENT:  SET SESSION timezone TO 'UTC'
+2025-02-08 21:40:15.034 +04 [9882] LOG:  could not open directory "/usr/local/share/postgresql@14/timezone": No such file or directory
+2025-02-08 21:40:15.034 +04 [9882] STATEMENT:  ALTER SYSTEM SET TimeZone = 'UTC';
+2025-02-08 21:40:15.036 +04 [9882] ERROR:  invalid value for parameter "TimeZone": "UTC"
+2025-02-08 21:40:15.036 +04 [9882] STATEMENT:  ALTER SYSTEM SET TimeZone = 'UTC';
+2025-02-08 21:41:04.935 +04 [9882] ERROR:  could not open directory "/usr/local/share/postgresql@14/timezone": No such file or directory
+2025-02-08 21:41:04.935 +04 [9882] STATEMENT:  SELECT name FROM pg_timezone_names;
+2025-02-08 21:42:56.653 +04 [6165] LOG:  server process (PID 10676) was terminated by signal 9: Killed: 9
+2025-02-08 21:42:56.687 +04 [6165] LOG:  terminating any other active server processes
+2025-02-08 21:42:56.692 +04 [6165] LOG:  all server processes terminated; reinitializing
+2025-02-08 21:42:56.709 +04 [6165] LOG:  startup process (PID 10677) was terminated by signal 9: Killed: 9
+2025-02-08 21:42:56.709 +04 [6165] LOG:  aborting startup due to startup process failure
+2025-02-08 21:42:56.712 +04 [6165] LOG:  database system is shut down
